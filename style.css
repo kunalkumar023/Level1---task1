@@ -1,0 +1,176 @@
+body{
+    background-image: linear-gradient(45deg,
+    rgba(176, 169, 169, 0.75),
+    rgba(205, 207, 210, 0.75)), url("/lily-banse--YHSwy6uqvk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#nav ul{
+    /* background-color:#4d1a1a; */
+    display: flex;
+    padding: 9px;
+    position:sticky ;
+}
+#nav ul li {
+    list-style-type: none;
+}
+#nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 150px;
+    margin: 50px;
+    border-radius:9px;
+    padding: 4px;
+    color: rgb(88, 33, 33);
+}
+#nav ul li a:hover{
+    background-color: rgb(116, 108, 108);
+    color: white;
+}
+
+#intro
+{
+    font-size: large;
+    margin-top: 250px;
+    /* background-color: aliceblue;
+    width: 500px; */
+    padding-left: 50px;
+    /* border-radius: 150px; */
+}
+#wel{
+    font-size: 35px;
+    margin-top: 50px;
+    color: white;
+}
+
+#name{
+    font-size: 100px;
+    margin-top: -55px;
+    color: #4d1a1a;
+}
+
+#rand{
+    margin-top: -50px;
+}
+
+#btn{
+    margin-left: 0px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border-radius: 22px;
+    background-color: rgb(88, 33, 33);
+    border: 2px solid black;
+}
+
+#btn:hover{
+    background-color: #4d1a1a;
+}
+
+.dish{
+    margin-top: 250px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 56px;
+    height: 500px;
+    
+}
+.dsh{
+    margin-left: 550px;
+    font-size: 30px;
+}
+.des{
+    margin-left: 430px;
+    margin-top: -25px;
+}
+
+.dish1{
+    display: flex;
+    flex-wrap: wrap;
+}
+#biryani:hover,#paneer:hover,#momo:hover{
+    transform:  scale(1.2);
+}
+.dish1 div img{
+    width: 250px;
+    height: 250px;
+}
+
+#biryani,#paneer,#momo{
+    margin-left: 105px;
+    background-color: white;
+    width: 275px;
+    height: 350px;
+    border-radius: 15px;
+    transition: 1s;
+    padding-left: 25px;
+    padding-top: 15px;
+
+}
+.name{
+    padding-left: 80px;
+}
+.btn{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    margin-left: 85px;
+    padding: 5px;
+    border-radius: 22px;
+    background-color: rgb(88, 33, 33);
+    border: 2px solid black;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgba(186, 28, 28, 0.865);
+}
+
+.explore{
+    height: 500px;
+    border-radius: 35px;
+    background-color:rgba(255, 255, 255, 0.623) ;
+    margin-top: 100px;
+    display: flex;
+}
+.explore img{
+    margin-top: 60px;
+    margin-left: 25px;
+    width: 500px;
+    height: 400px;
+    border-radius: 300px;
+}
+
+#exp p{
+    margin-top: 180px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#exp a{
+    margin-left: 250px;
+    font-size: 22px;
+    border-radius: 15px;
+    text-decoration: none ;
+    border-radius: 15px;
+    color: white;
+    background-color: #4d1a1a;
+    padding: 7px;
+    border: solid rgb(116, 102, 102) 2px;
+}
+#exp a:hover{
+    color: white;
+    background-color:rgb(209, 60, 60) ;
+    border: solid black 2px;
+}
+
+#footer{
+    background-color: white;
+    margin-top: 250px;
+    display: flex;
+    border-radius: 25px;
+}
